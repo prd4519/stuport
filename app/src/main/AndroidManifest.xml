@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.studentportal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Setting"></activity>
+        <activity android:name=".BahasaInternasional" />
+        <activity android:name=".Organisasi" />
+        <activity android:name=".Prestasi" />
+        <activity android:name=".Keterampilan" />
+        <activity android:name=".Magang" />
+        <activity android:name=".Pernyataan" />
+        <activity android:name=".DaftarWisuda" />
+        <activity android:name=".Presensi" />
+        <activity android:name=".LayananKemahasiswaan" />
+        <activity android:name=".Pengumuman" />
+        <activity android:name=".VisiMisi" />
+        <activity android:name=".EditDataOrtu" />
+        <activity android:name=".EditDatadiri" />
+        <activity android:name=".EvaluasiDosen" />
+        <activity android:name=".LupaPass" />
+        <activity android:name=".Aktivasi" />
+        <activity android:name=".JadwalKuliah" />
+        <activity android:name=".DaftarUlang" />
+        <activity android:name=".Wisuda" />
+        <activity android:name=".Kuesioner" />
+        <activity android:name=".Kuliah" />
+        <activity android:name=".Profil" />
+        <activity android:name=".Menu" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
